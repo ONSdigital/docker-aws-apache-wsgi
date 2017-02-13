@@ -1,2 +1,2 @@
-# eq-docker
-Docker Base Images for EQ Products
+# Docker AWS Apache WSGI
+Docker base images based on AWS base image with Apache and WSGI.
