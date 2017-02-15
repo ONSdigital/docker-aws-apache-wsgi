@@ -1,4 +1,5 @@
 FROM amazonlinux:2016.09
+ENV LANG en_GB.UTF-8
 
 WORKDIR /tmp
 
