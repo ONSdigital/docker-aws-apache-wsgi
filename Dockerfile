@@ -4,7 +4,7 @@ ENV LANG en_GB.UTF-8
 WORKDIR /tmp
 
 # Install system packages
-ENV RUNTIME_PACKAGES="wget bzip2 httpd httpd-devel"
+ENV RUNTIME_PACKAGES="wget bzip2 git httpd httpd-devel"
 ENV PYTHON_BUILD_PACKAGES="gcc zlib-devel bzip2-devel sqlite sqlite-devel openssl-devel postgresql94-devel libffi-dev readline-devel"
 RUN yum update -y && yum install -y $RUNTIME_PACKAGES $PYTHON_BUILD_PACKAGES
 
